@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login_page"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:gravity="center"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="40dp"
+        android:id="@+id/textView"
+        android:layout_width="258dp"
+        android:layout_height="44dp"
+        android:text="Log In"
+        android:textColor="@color/colorHeadingH1"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_marginBottom="15dp"
+        android:layout_width="291dp"
+        android:layout_height="57dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Email-Id"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp"
+        android:id="@+id/password"
+        android:layout_width="289dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+       />
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/button"
+        android:layout_width="198dp"
+        android:layout_marginBottom="40dp"
+        android:layout_height="43dp"
+        android:background="#880E4F"
+        android:text="Login   ->"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+         />
+
+    <TextView
+        android:id="@+id/textlink"
+        android:layout_width="258dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="Create Account ? Click Here"
+        android:textColor="@color/colorHeadingH1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:onClick="onClick"/>
+</LinearLayout>
+
+
